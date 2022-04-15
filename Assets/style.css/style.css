@@ -5,10 +5,6 @@ h1 {
     color: #f8f8ff;
 }
 
-#weatherContent {
-    display: none;
-}
-
 .navbar {
     height: 150px!important;
 }
@@ -31,6 +27,8 @@ li {
 
 #fiveDay .card {
     border: 1px solid white!important;
+    padding: 20px;
+    margin-left: 10px;
 }
 
 #searchHistory li {
@@ -38,15 +36,11 @@ li {
     color: #f8f8ff!important;
 }
 
-p {
-    color: #D9B779;
-}
-
 h1, h2, h3, h4, h5 {
-    font-family: 'Raleway', sans-serif;
+    font-family:  sans-serif;
 }
 
-h2, h3, h4, h5 {
+h2, h3, h4, h5, p {
     color: #f8f8ff;
 }
 
