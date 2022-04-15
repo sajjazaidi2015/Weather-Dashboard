@@ -4,9 +4,16 @@ h1 {
     letter-spacing: 3px;
     color: #f8f8ff;
 }
+.custom-header{
+    background-color: rgb(1, 1, 113);
+    color: #f8f8ff;
+}
 
 .navbar {
     height: 150px!important;
+}
+.input-group input{
+    margin-right: 5px;
 }
 
 #cityDetail,
@@ -18,33 +25,66 @@ li {
 #searchResults,
 #cityDetail,
 .card {
-    background-color: #5A6C73!important;
+    background-color: white
 }
 
 #searchResults {
     height: 100vh;
 }
 
-#fiveDay .card {
-    border: 1px solid white!important;
-    padding: 20px;
-    margin-left: 10px;
-}
+
 
 #searchHistory li {
     background-color: #97A6A4;
     color: #f8f8ff!important;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 5px;
 }
+
 
 h1, h2, h3, h4, h5 {
     font-family:  sans-serif;
 }
 
-h2, h3, h4, h5, p {
-    color: #f8f8ff;
+h2, h3, h4, h5, p { 
+    font-weight: 600;
 }
+#fiveDay .card {
+    border: 1px solid black;
+    padding: 20px;
+    margin-left: 10px;
+    background-color: rgb(1, 1, 93);
+    color: white;
+}
+#fiveDay .card img{
+    width: 60px;
+}
+
+#cityDetail{
+    color: black;
+}
+
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #97A6A4;
+    background-color: white ;
+}
+
+.uvClass {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.low{
+    background-color: greenyellow;
+}
+.moderate{
+    background-color: yellow
+}
+.high{
+    background-color: orange;
 }
