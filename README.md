@@ -10,9 +10,6 @@ A web-based dashboard built to show the current weather in a city of choice and 
 
 Enter in your city of choice and select search to view the current weather, temperature, humidity, wind speed, and UV Index for that city at the current time. Upon the search, the dashobard will also display the weather, temperature and hummidity forecast for the next five(5) days.
 
-UV Index will be accompanied by a color indicating the severity of the index
-
-
 ## Screenshot
 
 ![Weather Dashboard](./Assets/Image/Weather-Dashboard.jpeg)
